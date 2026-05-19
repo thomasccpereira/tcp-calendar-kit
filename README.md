@@ -187,6 +187,13 @@ All operations throw `CalendarKitError`:
 
 ---
 
+## Privacy
+
+This package accesses the user's calendar via EventKit.
+See [PRIVACY.md](PRIVACY.md) for full details.
+
+---
+
 ## License
 
 MIT

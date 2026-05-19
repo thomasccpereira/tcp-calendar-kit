@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "1C1CC4FD-723D-4399-ABB0-621333B7A9CF",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "CalendarKit",
+          "name" : "CalendarKit"
+        }
+      ]
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "CalendarKitTests",
+        "name" : "CalendarKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
